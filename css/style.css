@@ -1,0 +1,741 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+body{
+    overflow-x: hidden;
+}
+/* common css end */
+.offcanvas-body .navbar-nav .nav-item .nav-link{
+    color: #141135;
+    text-align: center;
+}
+.navbar{
+    background-color: hsla(246, 84%, 29%, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}
+.navbar-expand-lg .navbar-nav .navbar-nav {
+    padding-left: 35px;
+    padding-right: 35px;
+    /* padding-right: .5rem; */
+    /* padding-left: .5rem; */
+}
+
+.navbar-nav .nav-item:last-child .nav-link{
+    padding-right: 0px;
+}
+
+.navbar-nav .nav-item:first-child .nav-link{
+    padding-left: 0px;  
+}
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color:#EFF4FA;
+    transform: 0.5s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #1BBF00;
+}
+.nav-button button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color:#EFF4FA;
+    background: #1BBF00;
+    padding: 14px 28px;
+    border-radius:100px;
+    border: #1BBF00;
+}
+
+
+/* baner css start */
+#baner{
+    background: url(../img/baner.jpg);
+    padding-top: 246px;
+    padding-bottom: 254px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+#baner .png {
+    position: absolute;
+    top: 266px;
+    left: 0;
+}
+#baner .png-1 {
+    position: absolute;
+    right: 134px;
+    bottom: 76px;
+}
+#baner::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(99, 90, 195, 0.5);
+    z-index: -1;
+}
+.baner-text  h1{
+    font-size: 84px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #FAFAFE;
+    text-transform: capitalize;
+}
+.baner-text p{
+font-size: 24px;
+font-family: 'Paprika', cursive;
+color: #E6E5F3;
+text-align: center;
+margin-top: 18px;
+}
+.baner-button button{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: FFFFFF;
+    background-color: rgba(99, 90, 195, 0.5) ;
+    padding: 20px 40px;
+    color: #FFFFFF;
+    border-radius: 100px;
+    border-color: #1BBF00;
+    text-transform: capitalize;
+    align-items: center;
+    margin-top: 18px;   
+    transform: 0.5s;
+}
+.baner-button button:hover{
+    background-color: #1BBF00;
+}
+
+/* baner css end */
+
+
+/* count css start */
+#coutn{
+    padding: 283px 0;
+    background-color:#F9F9FB ;
+    position: relative;
+    z-index: 1;
+}
+
+#coutn .counter-shape img{
+    position: absolute;
+    top: 0;
+    right:0;
+    z-index: -1;
+}
+
+#coutn .counter-detalis h2{
+    font-size: 64px;
+    font-weight: 800;
+    color: #1BBF00;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#coutn .counter-detalis  p{
+    font-size: 36px;
+    font-weight: 700;
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#coutn .borders {
+    position: relative;
+    }
+
+#coutn .borders ::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 132px;
+    width: 100%;
+    border-right: 1px solid rgba(79, 88, 95, 0.5);
+    
+}
+
+/* count css end */
+#choseus{
+    padding-top: 100px;
+    padding-bottom: 91px;
+    background-color: #FDFDFD;
+    position: relative;
+    
+
+}
+#choseus .chose-img img{
+   position: absolute;
+    top: -60px;
+    left: -69px;
+    /* top: 0;
+    left: 0;
+    position: relative; */
+    
+    width: 320px;
+    height: 320px;
+    
+}
+#choseus .chose-left {
+    display: flex;
+ 
+    padding: 0px 0px 0px 28px ;
+    transition: all linear 0.5s;
+  
+}
+#choseus .chose-left:hover{
+    box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+    padding: 42px 146px 42px 28px ;
+
+}
+#choseus .chose-left .chose-icon{
+    height: 25px;
+    width: 25px;
+    background-color: #1BBF00;
+    border-radius: 50%;
+    position: relative;
+}
+#choseus .chose-left .chose-icon::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 13px;
+    height: 25px;
+    width: 25px;
+    background-color: #CBC8F0;
+    border-radius: 50%;
+}
+#choseus .chose-left p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #726E9E;
+    font-family: 'Paprika', cursive;
+    margin-left: 37px;
+    width: 319px;
+    line-height: 30px;
+
+}
+
+#choseus .chose-text h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #141135;
+}
+#choseus .chose-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #726E9E;
+    font-family: 'Paprika', cursive;
+}
+
+#choseus .chose-btn button{
+padding: 20px 40px;
+background-color: #1BBF00;
+font-size: 20px;
+font-weight: 700;
+color:#F9F9F9;
+font-family: 'Open Sans', sans-serif;
+border-radius: 100px;
+
+
+}
+
+/*service  part css start */
+#service{
+    padding: 100px 0;
+    background-color: #F6F5FF;
+}
+
+#service .service-title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #141135;
+}
+#service .service-title{
+    font-size: 18px;
+    color: #6C7D93;
+    font-weight:400 ;
+    width: 350px;
+}
+#service .service-btn button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color:#FFFFFF ;
+    background-color: #1BBF00;
+    padding: 20px 40px;
+    border-radius: 100px;
+}
+#service .service-detailes{
+    background-color: #FFFFFF;
+    padding: 49px 52px;
+    border-radius: 5px;
+    transition: all linear 0.6s;
+}
+#service .service-detailes:hover{
+    background: rgba(94, 83, 211);
+    border-radius: 5px;
+}
+#service .service-detailes:hover .service-text h2{
+    color: #FFFFFF;
+}
+#service .service-detailes:hover .service-text p{
+    color: #FFFFFF;
+}
+#service .service-detailes:hover .service-text a{
+    color: #FFFFFF;
+}
+
+
+#service .service-detailes .service-text h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #141135;
+    transition: all linear 0.5s;
+}
+
+#service .service-detailes .service-text  p{
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #726E9E;
+    transition: all linear 0.5s;
+}
+
+#service .service-detailes .service-text a{
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #141135;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100px;
+}
+#service .service-detailes .service-text a:hover{
+    color: #E6E5F3;
+}
+
+#service .service-text a::after{
+content: '';
+top: 0;
+left: 60px;
+height: 100%;
+width: 100%;
+background: rgba(25, 191, 0, 0.3);
+border-radius: 0px 100px 100px 0px;
+position: absolute;
+transition: all linear 0.5s;
+}
+#service .service-text a:hover::after{
+    left: 0px;
+}
+/* service part css end */
+
+
+/* create css start */
+#create{
+    padding-top: 91px;
+    padding-bottom: 109px;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+}
+#create .create-img img{
+    position: absolute;
+    right:0;
+    bottom:100px;
+    z-index: -2;
+   
+    
+}
+#create.impact h2{
+    font-size: 48px;
+    font-size: 700px;
+    font-family: 'Open Sans', sans-serif;
+    color: #141135;
+}
+#create .impact p{
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color:#726E9E;
+    width: 558px;
+    margin: 0 auto;
+}
+
+#create .imacet-left{
+    display: flex;
+    margin-top: 100px;
+  
+}
+#create .impacet-text{
+    padding-left: 35px;
+}
+#create .impacet-text h2{
+font-size: 30px;
+font-weight: 700;
+font-family: 'Open Sans', sans-serif;
+color:#141135;
+}
+
+#create .impacet-text p{
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+   font-weight: 400;
+   color: #726E9E;
+   width: 343px;
+   margin: 0 auto;
+}
+.impacet-right img{
+    position: relative;
+}
+
+/* create  css end */
+
+
+/* Plan css start */
+#plan{
+    padding: 100px 0;
+    background-color: #F9F9FB;
+   
+}
+#plan .plan-title h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #141135;
+    text-align: center;
+}
+
+#plan  .plan-d{
+    margin-top: 100px;
+}
+#plan .plan-datiles{
+    padding: 60px 0;
+    background-color: #FFFFFF;
+    transition: all linear 0.5s;
+}
+#plan .plan-datiles h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #141135;
+   
+
+}
+
+#plan .plan-rate {
+    display: flex;
+    justify-content: center;
+}
+#plan .plan-rate span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1BBF00;
+    
+}
+#plan .plan-rate h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #1BBF00;
+}
+#plan .plan-datiles p{
+    font-size: 18px;
+    font-weight: 400; 
+    color: #726E9E;
+    font-family: 'Paprika', cursive;
+    width: 252px;
+    margin: 0 auto;
+}
+
+#plan  .plan-datiles:hover{
+    border-radius: 5px;
+    background-color: #6B62C5;
+}
+#plan  .plan-datiles:hover h5{
+    color: #EFF4FA;
+}
+#plan  .plan-datiles:hover p{
+    color: #E6E5F3;
+}
+#plan  .plan-datiles:hover img{
+    background: rgba(95, 1, 211, 0.5);
+  
+}
+/* Plan css end */
+
+/*  About Us css start */
+#about{
+    padding: 100px 0;
+    background-color: #F8F8FF;
+}
+
+.about-left-icon {
+    background-color: #1BBF00;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    position: relative;
+    top: 509px;
+    left: 20px;
+    
+}
+ .about-left-icon i {
+    position: absolute;
+    top: 25px;
+    left: 27px;
+    color:#EFF4FA;
+   
+   
+}
+.about-right-icon {
+
+        background-color: #1BBF00;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        position: relative;
+        right: -1588px;
+        top:452px;
+    
+   
+}
+ .about-right-icon i {
+    position: absolute;
+    top: 25px;
+    left: 27px;
+    color:#EFF4FA;
+   
+}
+#about .about-title h2{
+font-size: 48px;
+font-weight: 700;
+font-family: 'Open Sans', sans-serif;
+color: #141135;
+}
+
+#about .about-detiles{
+    padding: 168px 0 56px 0;
+    background: #FFFFFF;
+    box-shadow: -15px 30px 50px rgba(171, 175, 199, 0.301961);
+    border-radius: 20px;
+    margin-top: 152px;
+    position: relative;
+}
+#about .about-detiles img {
+    position: absolute;
+    top: -38%;
+    left: 49%;
+    transform: translate(-50%,50%);
+}
+#about .about-icon i{
+    color: #FF7628;
+}
+#about .about-detiles p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #726E9E;
+    font-family: 'Paprika', cursive;
+    width: 800px;
+    line-height: 40px;
+    margin: 0 auto;
+    margin-top: 33px;
+}
+#about .about-detiles .about-person h2{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #221A2C;
+    margin-top: 48px;
+}
+#about .about-detiles .about-person span{
+font-size: 16px;
+font-weight: 400;
+font-family: 'Paprika', cursive;
+color: #726E9E;
+}
+/*  About Us css end */
+
+
+/* Also Like css start */
+#like{
+    padding: 100px 0;
+    background: #F9F9FB;
+    position: relative;
+    z-index: 3;  
+} 
+
+#like .like-shape img {
+        position: absolute;
+        left: 10px;
+        bottom:0px;
+        z-index:-3;  
+    }
+
+
+#like .like-part{
+    margin:0 100px;
+
+  }
+#like .like-heding h2{
+    
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #030314;
+  }
+  #like .like-detailes .like-top p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #726E9E;
+    transition: all linear 0.5s;
+  }
+  #like .like-detailes .like-top p:hover{
+    color: #1BBF00;
+  }
+  #like .like-detailes .like-top .fairst {
+    color: #1BBF00;
+  }
+
+  #like .like-midle h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color-scheme: #141135;
+    
+  }
+  #like .like-midle a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #141135;
+    position: relative;
+    padding: 10px 10px;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+  #like .like-midle a::after{
+    content: '';
+    top: 0;
+    left: 60px;
+    border-radius: 100px;
+    height: 100%;
+    width: 100%;
+    background: rgba(25, 191, 0, 0.3);
+    border-radius: 0px 100px 100px 0px;
+    position: absolute;
+    transition: 0.5s;
+  }
+  #like .like-midle a:hover::after{
+    left: 0;
+  }
+
+/* Also Like css end */
+
+
+/* foter css start */
+#foter{
+    padding: 140px 0 160px 0;
+    background: #48409C;
+}
+#foter .first-tex p{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FEFEFE;
+    width: 449px;
+}
+
+
+#foter .second-tex h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #FEFEFE;
+}
+#foter .second-tex p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FEFEFE;
+    font-family: 'Nunito', sans-serif;
+   
+}
+#foter .third-tex h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #FEFEFE;
+}
+#foter .third-tex p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FEFEFE;
+    font-family: 'Nunito', sans-serif;
+   
+}
+
+#foter .four-tex h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #FEFEFE;
+}
+#foter .four-tex p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FEFEFE;
+    font-family: 'Nunito', sans-serif;
+   
+}
+#foter .las1-text h2{
+font-size: 18px;
+font-weight: 400;
+font-family: 'Nunito', sans-serif;
+color: #EFF4FA;
+margin-top: 50px;
+}
+#foter .second-text h2{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #EFF4FA;
+    margin-top: 50px;
+   
+    }
+ #foter .third-text h2{
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Nunito', sans-serif;
+        color: #EFF4FA;
+        margin-top: 50px;
+        }
+/* foter css end */

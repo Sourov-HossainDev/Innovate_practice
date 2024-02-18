@@ -1,0 +1,492 @@
+@media  (min-width: 320px) and (max-width:575.98px) { 
+    .navbar-toggler {
+        background-color: greenyellow;
+        border: 2px solid black;
+        
+    }
+    .nav-button{
+        margin: 0px 108px;
+        
+    }
+    .nav-button button {
+       
+        font-size: 9px;
+        
+    }
+
+    .baner-text h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .baner-text p {
+        font-size: 16px;
+        
+    }
+    .baner-button{
+            margin: 0 49px;
+            padding-top: 12px;
+        }
+
+        #coutn .counter-detalis h2 {
+            font-size: 40px;
+            
+        }
+        #coutn .counter-detalis p {
+            font-size: 25px;
+           
+        }
+        #coutn .borders ::after {
+           
+            height: 0px;
+            width: 100%;
+           
+        }
+        #choseus .chose-text h2 {
+            text-align: center;
+            font-size: 37px;
+        }
+        #choseus .chose-text p {
+            font-size: 14px;
+            text-align: center;
+        }
+       
+        #service .service-title {
+           margin:  0 auto;
+        }
+        #service .service-btn button {
+            margin: 0 58px;
+        }
+        #service .service-detailes {
+            margin-top: 10px;
+        }
+        #create .impact p {
+           
+            font-size: 14px;
+           
+            width: 342px;
+           
+        }
+        #create .impacet-icon{
+            margin: 0px -58px;
+        }
+        #create .impacet-text h2 {
+            font-size: 16px;
+            margin: 0 51px;
+        }
+        #create .imacet-left {
+            margin: 31px 54px;
+        }
+        #create .impacet-text p {
+        
+            font-size: 15px;
+            
+            width: 259px;
+            margin: 0 49px;
+        }
+        #create .impacet-right img {
+            margin: 0px -22px;
+            width: 378px;
+        }
+        #choseus .chose-btn button {
+            margin: 0 71px;
+        }
+
+        #create .create-img img {
+            margin: 152px 0px;
+        }
+        
+        #plan .plan-title h2 {
+            font-size: 40px;
+            
+        }
+        #plan .plan-datiles {
+           margin-top: 10px;
+        }
+        #about .about-title h2 {
+            font-size: 30px;
+            
+        }
+
+        #about .about-detiles p {
+            font-size: 12px;
+            width: 343px;
+        }
+
+        #like .like-heding h2 {
+            font-size: 18px;
+        }
+        #like  .ilke-img img{
+            width: 343px;
+            margin: 0 -101px;
+        
+        }
+        #like  .like-top{
+            margin: 0 -98px;
+        }
+        #like .like-detailes .like-top p {
+            
+            font-size: 12px;
+           
+        }
+
+        #like .like-midle h3 {
+            font-size: 12px;
+            
+        }
+        #foter .first-tex p {
+            
+            font-size: 13px;
+           
+            width: 333px;
+        }
+      
+
+        #foter .second-tex h2 {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        #foter .third-tex h2 {
+           margin-top: 10px;
+           font-size: 16px;
+        }
+
+        #foter .four-tex h2 {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        #foter .second-tex p {
+            font-size: 12px;
+            
+        }
+        #foter .third-tex p {
+            font-size: 12px;
+            
+        }
+        #foter .four-tex p {
+            font-size: 12px;
+            
+        }
+
+        #foter .las1-text h2 {
+            font-size: 13px;
+            
+            margin-top: 21px;
+        }
+        #foter .second-text h2 {
+            font-size: 14px;
+            margin-top: 22px;
+        }
+
+        #foter .third-text h2 {
+            font-size: 14px;
+            
+            margin-top: 22px;
+        }
+     
+}
+
+@media  (max-width: 768px) and (min-width: 577px) { 
+    .navbar-toggler {
+        background-color: greenyellow;
+        border: 2px solid black;
+        
+    }
+
+    .nav-button button {
+       
+            margin: 0px 105px;
+        
+    }
+
+    .baner-text h1 {
+        font-size: 55px;
+        margin: 0 2px;
+    }
+
+    .baner-text p {
+        font-size: 19px;
+        
+    }
+
+    .baner-button {
+        margin: 0 117px;
+    }
+
+    #choseus .chose-text h2 {
+        margin: 0 151px;
+        font-size: 41px;
+    }
+
+    #choseus .chose-text p {
+        margin: 0 52px;
+    }
+
+    #choseus .chose-btn button {
+        margin: 0 224px;
+    }
+    #service .service-detailes {
+       
+        padding: 34px 207px;
+        margin-top: 10px;
+        
+    }
+
+    #service .service-title {
+       margin: 0 auto;
+    }
+    #service .service-detailes .service-text h2 {
+        font-size: 24px;
+      
+    }
+
+    #service .service-detailes .service-text p {
+       
+        font-size: 16px;
+        
+    }
+    #create .imacet-left {
+        margin: 12px 99px;
+    }
+    .impacet-right{
+        margin: 0 auto;
+    }
+    #plan .plan-datiles {
+        margin-top: 10px;
+    }
+    #plan .plan-datiles h5 {
+      
+        font-size: 22px;
+    }
+    #plan .plan-rate h6 {
+        
+        font-size: 36px;
+        
+    }
+    #plan .plan-datiles p {
+        font-size: 15px;
+       
+       
+    }
+    #about .about-detiles p {
+        font-size: 20px;
+        width: 710px;
+        
+    }
+    .about-left-icon {
+     
+        left: 39px;
+    }
+ 
+ }
+
+
+ @media (max-width: 992px) and (min-width: 768px) {
+    .baner-text h1 {
+        font-size: 60px;
+        
+    }
+    .baner-text p {
+        font-size: 18px;
+    }
+    .baner-button button {
+        font-size: 12px;
+    }
+
+    #service .service-title h2 {
+        font-size: 41px;
+        
+    }
+    #service .service-title p{
+
+    }
+    #service .service-title p {
+        font-size: 15px;
+        width: 328px;
+    }
+
+    #service .service-btn button {
+        
+        font-size: 17px;
+      
+    }
+    #service .service-detailes .service-text h2 {
+        font-size: 21px;
+       
+    }
+    #service .service-detailes .service-text p {
+        
+        font-size: 14px;
+        
+    }
+    #service .service-detailes .service-text a {
+       
+        font-size: 17px;
+    
+    }
+    #create .impacet-text h2 {
+        font-size: 25px;
+        
+    }
+    #create .impacet-text p {
+        font-size: 14px;
+    }
+    .impacet-right img {
+        margin: 0px -70px;
+    }
+    #plan .plan-datiles h5 {
+        
+        font-size: 20px;
+        
+    }
+    #plan .plan-rate h6 {
+        
+        font-size: 34px;
+    }
+    #plan .plan-datiles p {
+        font-size: 13px;
+        
+    }
+    #plan .plan-datiles img {
+        width: 235px;
+    }
+    #about .about-detiles p {
+        font-size: 18px;
+   
+    }
+    .about-left-icon {
+        
+        left: 28px;
+    }
+    .ilke-img img {
+        width: 288px;
+    }
+    #like .like-heding h2 {
+        font-size: 43px;
+        
+    }
+    #like .like-midle h3 {
+        font-size: 25px;
+        
+    }
+    #like .like-midle a {
+        font-size: 13px;
+        
+    }
+    #foter .first-tex p {
+       
+        font-size: 16px;
+        
+        width: 379px;
+    }
+    #plan .plan-title h2 {
+        font-size: 39px;
+        
+    }
+
+
+    
+}
+
+@media (max-width: 1200px) and (min-width: 992px) { 
+    .baner-text h1 {
+        font-size: 67px;
+        
+    }
+    .baner-text p {
+        font-size: 19px;
+        margin: 0 -36px;
+    }
+    .baner-button button {
+        font-size: 12px;
+        
+    }
+    #coutn .counter-detalis h2 {
+        font-size: 55px;
+    }
+
+    #coutn .counter-detalis p {
+        font-size: 31px;
+    }
+    #service .service-title h2 {
+      
+        font-size: 43px;
+        
+    }
+    #service .service-title p {
+        font-size: 16px;
+    }
+    #service .service-btn button {
+       
+        font-size: 13px;
+        
+    }
+    #service .service-detailes .service-text h2 {
+        font-size: 20px;
+        
+    }
+    #service .service-detailes .service-text p {
+        
+        font-size: 14px;
+        
+    }
+    #service .service-detailes .service-text a {
+        
+        font-size: 14px;
+        
+    }
+    #plan .plan-datiles h5 {
+        
+        font-size: 23px;
+        
+    }
+    #plan .plan-datiles img {
+        width: 283px;
+    }
+    #plan .plan-rate h6 {
+       
+        font-size: 32px;
+       
+    }
+    #plan .plan-datiles p {
+        font-size: 13px;
+        
+    }
+    #about .about-title h2 {
+        font-size: 40px;
+        
+    }
+    #about .about-title h2 {
+        font-size: 40px;
+        
+    }
+    .about-left-icon {
+        
+        left: 44px;
+    }
+    #like .like-heding h2 {
+        font-size: 43px;
+       
+    }
+    #like .like-midle h3 {
+        font-size: 24px;
+        
+    }
+    #like .like-midle a {
+        font-size: 16px;
+        
+    }
+ }
+
+ @media (max-width: 1400px)and (min-width: 1200px){ 
+    .baner-text p {
+        font-size: 18px;
+    }
+
+    .about-left-icon {
+       
+        left: 54px;
+    }
+    
+
+  }
